@@ -1,0 +1,7 @@
+07:20:31.937 [main] INFO  AdmPages.LoginClass - Page Title is validated
+07:20:32.057 [main] INFO  AdmPages.LoginClass - Expand icon is clicked
+07:20:35.057 [main] INFO  AdmPages.LoginClass - Widget is expended
+07:20:35.187 [main] INFO  AdmPages.LoginClass - Collapse icon is clicked
+07:20:38.188 [main] INFO  AdmPages.LoginClass - Widget is Collapsed
+07:20:38.379 [main] INFO  AdmPages.LoginClass - Widget Delete icon is clicked
+07:20:41.500 [main] INFO  AdmPages.LoginClass - Delete Confirmation pop up is showing up

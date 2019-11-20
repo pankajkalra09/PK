@@ -1,0 +1,7 @@
+01:15:50.078 [main] INFO  AdmPages.LoginClass - Page title is Verify IDP
+01:15:50.084 [main] INFO  AdmPages.LoginClass - Page Title is validated
+01:15:50.323 [main] INFO  AdmPages.LoginClass - username is entered
+01:15:50.428 [main] INFO  AdmPages.LoginClass - password is entered
+01:16:06.596 [main] INFO  AdmPages.LoginClass - Sign In button is clicked
+01:16:06.616 [main] INFO  AdmPages.LoginClass - Page title is uat QA environment
+10:56:54.701 [main] INFO  AdmPages.LoginClass - Page title is Verify IDP

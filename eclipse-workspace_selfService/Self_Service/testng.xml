@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Self-Service Suite">
+
+<listeners> 
+         <listener class-name="Common.ExtentReporterNG"/>
+ </listeners>
+
+  <test name="Self-Service Test">
+    <classes>
+      <class name="AdministrationTC.Admin_Flow"/>
+      
+    </classes>
+  </test> <!-- Self-Service Test -->
+</suite> <!-- Self-Service Suite -->

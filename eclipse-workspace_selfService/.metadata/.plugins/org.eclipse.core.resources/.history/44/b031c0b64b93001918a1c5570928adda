@@ -1,0 +1,20 @@
+package test;
+
+import org.testng.annotations.Test;
+
+import Common.BaseClass;
+import Common.DataProviderClass;
+import Pages.ProspectInfoPage;
+
+public class testtwo extends BaseClass {
+
+	@Test(enabled = true, dataProvider = "selfservice_ProspectPage", dataProviderClass = DataProviderClass.class)
+	public void selectvalue(String Calendartype, String termapplying, String award, String primarymajor,
+			String secondarymajor, String firstname, String middlename, String lastname, String suffix,
+			String preferedname, String legalname) throws Throwable {
+		ProspectInfoPage obj1 = new ProspectInfoPage(driver);
+		obj1.clickdrop(Calendartype, termapplying, award, primarymajor, secondarymajor, firstname, middlename, lastname,
+				suffix, preferedname, legalname);
+	}
+
+}
