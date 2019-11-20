@@ -36,7 +36,7 @@ public class ApplicantInfoPage {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
-
+//test
 	public Application applicantdata(String fullparttime, String admitcode, String campuscode, String resdencycode, String primarysource) throws InterruptedException {
 		//Select Full Time value
 		FullParttimedrop.click();
