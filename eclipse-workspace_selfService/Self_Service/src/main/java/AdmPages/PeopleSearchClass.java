@@ -1,7 +1,6 @@
 package AdmPages;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,7 +11,7 @@ public class PeopleSearchClass {
 
 	
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(PeopleSearchClass.class.getName());
+	public static Logger log = Logger.getLogger(PeopleSearchClass.class.getName());
 	
 	@FindBy(xpath = "//div[@class='custBreadCrumb']/ol/li[1]") WebElement breadcrumb;
 	@FindBy(xpath = "//span[contains(text(), 'People')]")	WebElement peopleSearch;

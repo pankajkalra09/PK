@@ -8,7 +8,7 @@
           <include name="browserload"/>
           <include name="closebrowser"/>
           <include name="ProspectViewRecords_page_method"/>
-          <include name="Login_Page_method"/>
+          <include name="Login_Page_method" invocation-numbers="0"/>
           <include name="dashboard_page_method"/>
         </methods>
       </class> <!-- AdministrationTC.Admin_Flow -->

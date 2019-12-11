@@ -1,0 +1,20 @@
+2019-12-11-main--INFO -AdmPages.LoginClass:Page title is Verify IDP
+2019-12-11-main--INFO -AdmPages.LoginClass:Page Title is validated
+2019-12-11-main--INFO -AdmPages.LoginClass:username is entered
+2019-12-11-main--INFO -AdmPages.LoginClass:password is entered
+2019-12-11-main--INFO -AdmPages.LoginClass:Sign In button is clicked
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Prospect View Records Page title is Prospects
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Prospect View Records Page Title is validated
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Add Filter Link is Clicked
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Add Filter pop up is shoiwng up correctly.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:First filter is checked
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Filer Apply button is clicked
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Data is filtered correctly.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Filters are cleared
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:User has clicked on Customize column link.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:User has selected Select All from the pop up.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Üser has clicked Apply Filter button.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:User has selected the toggle for Advance Filter.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:User has entered search criteria in text field.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:Enter key is pressed.
+2019-12-11-main--INFO -AdmPages.ProspectsViewRecords:First record in the search result is clicked successfully

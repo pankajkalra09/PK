@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 
 import Common.BaseClass;
 import Common.DataProviderClass;
-import Pages.ApplicantInfoPage;
-import Pages.EmailRegisterPage;
-import Pages.ProspectInfoPage;
+import SelfService.Pages.ApplicantInfoPage;
+import SelfService.Pages.EmailRegisterPage;
+import SelfService.Pages.ProspectInfoPage;
 
 public class SelfService_Flow extends BaseClass {
 

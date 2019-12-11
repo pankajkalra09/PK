@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,12 @@
                     <div class="method-list-content passed suite-Self_Service_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Self_Service_Suite" title="AdministrationTC.Admin_Flow" hash-for-method="Login_Page_method(ssoadmin@unifyedadmitqa.edu, Admin@123)">Login_Page_method(ssoadmin@unifyedadmitqa.edu, Admin@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Self_Service_Suite" title="AdministrationTC.Admin_Flow" hash-for-method="Login_Page_Test(ssoadmin@unifyedadmitqa.edu, Admin@123)">Login_Page_Test(ssoadmin@unifyedadmitqa.edu, Admin@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Self_Service_Suite" title="AdministrationTC.Admin_Flow" hash-for-method="ProspectViewRecords_page_method">ProspectViewRecords_page_method</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Self_Service_Suite" title="AdministrationTC.Admin_Flow" hash-for-method="dashboard_page_method">dashboard_page_method</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Self_Service_Suite" title="AdministrationTC.Admin_Flow" hash-for-method="ProspectViewRecords_Page_Test">ProspectViewRecords_Page_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Self_Service_Suite -->
@@ -135,24 +130,17 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login_Page_method(ssoadmin@unifyedadmitqa.edu, Admin@123)">
-                  </a> <!-- Login_Page_method(ssoadmin@unifyedadmitqa.edu, Admin@123) -->
-                  <span class="method-name">Login_Page_method</span>
+                  <a name="Login_Page_Test(ssoadmin@unifyedadmitqa.edu, Admin@123)">
+                  </a> <!-- Login_Page_Test(ssoadmin@unifyedadmitqa.edu, Admin@123) -->
+                  <span class="method-name">Login_Page_Test</span>
                   <span class="parameters">(ssoadmin@unifyedadmitqa.edu, Admin@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="ProspectViewRecords_page_method">
-                  </a> <!-- ProspectViewRecords_page_method -->
-                  <span class="method-name">ProspectViewRecords_page_method</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="dashboard_page_method">
-                  </a> <!-- dashboard_page_method -->
-                  <span class="method-name">dashboard_page_method</span>
+                  <a name="ProspectViewRecords_Page_Test">
+                  </a> <!-- ProspectViewRecords_Page_Test -->
+                  <span class="method-name">ProspectViewRecords_Page_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,19 +200,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dashboard_page_method')
+data.setCell(0, 1, 'ProspectViewRecords_Page_Test')
 data.setCell(0, 2, 'AdministrationTC.Admin_Flow')
-data.setCell(0, 3, 26708);
+data.setCell(0, 3, 66376);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ProspectViewRecords_page_method')
+data.setCell(1, 1, 'Login_Page_Test')
 data.setCell(1, 2, 'AdministrationTC.Admin_Flow')
-data.setCell(1, 3, 25673);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Login_Page_method')
-data.setCell(2, 2, 'AdministrationTC.Admin_Flow')
-data.setCell(2, 3, 22028);
+data.setCell(1, 3, 22693);
 window.suiteTableData['Self_Service_Suite']= { tableData: data, tableDiv: 'times-div-Self_Service_Suite'}
 return data;
 }
@@ -244,9 +228,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Self_Service_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">AdministrationTC.Admin_Flow</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">PeopleSearch_Page_Test</span>
+                <br/>
+                <span class="ignored-method-name">Dashboard_Page_Test</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Self_Service_Suite" class="panel">
@@ -261,20 +254,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">Login_Page_method(ssoadmin@unifyedadmitqa.edu, Admin@123)</span>
-                <span class="method-start">13976 ms</span>
+                <span class="method-name">Login_Page_Test(ssoadmin@unifyedadmitqa.edu, Admin@123)</span>
+                <span class="method-start">14111 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">dashboard_page_method</span>
-                <span class="method-start">36018 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ProspectViewRecords_page_method</span>
-                <span class="method-start">62733 ms</span>
+                <span class="method-name">ProspectViewRecords_Page_Test</span>
+                <span class="method-start">36813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">88410 ms</span>
+                <span class="method-start">103192 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

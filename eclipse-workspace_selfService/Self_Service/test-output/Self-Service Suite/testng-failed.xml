@@ -10,9 +10,7 @@
         <methods>
           <include name="browserload"/>
           <include name="closebrowser"/>
-          <include name="ProspectViewRecords_page_method"/>
-          <include name="Login_Page_method"/>
-          <include name="dashboard_page_method"/>
+          <include name="ProspectViewRecords_Page_Test"/>
         </methods>
       </class> <!-- AdministrationTC.Admin_Flow -->
     </classes>

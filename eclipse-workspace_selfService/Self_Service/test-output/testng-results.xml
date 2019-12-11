@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Self-Service Suite" duration-ms="89165" started-at="2019-10-29T10:33:23 CDT" finished-at="2019-10-29T10:34:52 CDT">
+  <suite name="Self-Service Suite" duration-ms="103998" started-at="2019-12-11T11:17:35 CST" finished-at="2019-12-11T11:19:19 CST">
     <groups>
     </groups>
-    <test name="Self-Service Test" duration-ms="89165" started-at="2019-10-29T10:33:23 CDT" finished-at="2019-10-29T10:34:52 CDT">
+    <test name="Self-Service Test" duration-ms="103998" started-at="2019-12-11T11:17:35 CST" finished-at="2019-12-11T11:19:19 CST">
       <class name="AdministrationTC.Admin_Flow">
-        <test-method status="PASS" signature="browserload()[pri:0, instance:AdministrationTC.Admin_Flow@4b1c1ea0]" name="browserload" is-config="true" duration-ms="12963" started-at="2019-10-29T10:33:23 CDT" finished-at="2019-10-29T10:33:36 CDT">
+        <test-method status="PASS" signature="browserload()[pri:0, instance:AdministrationTC.Admin_Flow@6a1aab78]" name="browserload" is-config="true" duration-ms="13070" started-at="2019-12-11T11:17:35 CST" finished-at="2019-12-11T11:17:48 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserload -->
-        <test-method status="PASS" signature="Login_Page_method(java.lang.String, java.lang.String)[pri:1, instance:AdministrationTC.Admin_Flow@4b1c1ea0]" name="Login_Page_method" duration-ms="22028" started-at="2019-10-29T10:33:37 CDT" data-provider="Adm_LoginPage" finished-at="2019-10-29T10:33:59 CDT">
+        <test-method status="PASS" signature="Login_Page_Test(java.lang.String, java.lang.String)[pri:1, instance:AdministrationTC.Admin_Flow@6a1aab78]" name="Login_Page_Test" duration-ms="22693" started-at="2019-12-11T11:17:49 CST" data-provider="Adm_LoginPage" finished-at="2019-12-11T11:18:11 CST">
           <params>
             <param index="0">
               <value>
@@ -26,16 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Page_method -->
-        <test-method status="PASS" signature="dashboard_page_method()[pri:2, instance:AdministrationTC.Admin_Flow@4b1c1ea0]" name="dashboard_page_method" duration-ms="26708" started-at="2019-10-29T10:33:59 CDT" finished-at="2019-10-29T10:34:25 CDT">
+        </test-method> <!-- Login_Page_Test -->
+        <test-method status="PASS" signature="ProspectViewRecords_Page_Test()[pri:4, instance:AdministrationTC.Admin_Flow@6a1aab78]" name="ProspectViewRecords_Page_Test" duration-ms="66376" started-at="2019-12-11T11:18:11 CST" finished-at="2019-12-11T11:19:18 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dashboard_page_method -->
-        <test-method status="PASS" signature="ProspectViewRecords_page_method()[pri:3, instance:AdministrationTC.Admin_Flow@4b1c1ea0]" name="ProspectViewRecords_page_method" duration-ms="25673" started-at="2019-10-29T10:34:25 CDT" finished-at="2019-10-29T10:34:51 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProspectViewRecords_page_method -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AdministrationTC.Admin_Flow@4b1c1ea0]" name="closebrowser" is-config="true" duration-ms="745" started-at="2019-10-29T10:34:51 CDT" finished-at="2019-10-29T10:34:52 CDT">
+        </test-method> <!-- ProspectViewRecords_Page_Test -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AdministrationTC.Admin_Flow@6a1aab78]" name="closebrowser" is-config="true" duration-ms="801" started-at="2019-12-11T11:19:18 CST" finished-at="2019-12-11T11:19:19 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
